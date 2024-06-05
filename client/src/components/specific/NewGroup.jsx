@@ -15,7 +15,7 @@ export default function NewGroup() {
     setSelectedMembers((prev) =>
       (prev.includes(id) ? prev.filter((currElement) => currElement!==id) : [...prev,id]));
   };
-  console.log(selectedMembers);
+  // console.log(selectedMembers);
 
   const submitHandler = () =>{};
   const closeHandler = () =>{};
